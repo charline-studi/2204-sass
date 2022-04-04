@@ -16,7 +16,7 @@ Durant les lives nous allons mettre en pratiques les différentes fonctionnalit�
 
 | Numéro | Date       | Heure     | Titre                                       | Replay                |
 |--------|------------|-----------|---------------------------------------------|-----------------------|
-| 01     | 04/04/2022 | 10h - 11h | Découverte et installation                  | pas encore disponible |
+| 01     | 04/04/2022 | 10h - 11h | Découverte et installation                  | https://app.studi.fr/#/dashboard/events/31090/replay |
 | 02     | 06/04/2022 | 10h - 11h | Imbrication et variables                    | pas encore disponible |
 | 03     | 08/04/2022 | 10h - 11h | Héritage et extend                          | pas encore disponible |
 | 04     | 11/04/2022 | 10h - 11h | Fonctions et mixins                         | pas encore disponible |
@@ -24,3 +24,5 @@ Durant les lives nous allons mettre en pratiques les différentes fonctionnalit�
 | 06     | 15/04/2022 | 10h - 11h | Recode d'un projet couplé avec synthaxe BEM | pas encore disponible |
 
 ## Ressources
+
+- [📖 Documentation Officielle Sass - EN](https://sass-lang.com/)
