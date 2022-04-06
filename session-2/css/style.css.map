@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,4BAA4B;ACC5B,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CAAG;;AAEjB,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,IAAI;CAAG;;ADJ5B,uBAAuB;AEHvB,gBAAgB;AAIhB,wBAAwB;AAGxB,YAAY;AFDZ,aAAa;AGNb,AAAA,IAAI,CAAC;EACD,gBAAgB,EDAb,KAAK;CCAkB;;AHQ9B,YAAY;AAEZ,gBAAgB",
+    "sources": [
+        "style.sass",
+        "sass/general/_reset.sass",
+        "sass/tools/_variables.sass",
+        "sass/general/_body.sass"
+    ],
+    "names": [],
+    "file": "style.css"
+}

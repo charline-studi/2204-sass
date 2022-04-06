@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* Lib / Élément de Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+/* Variables / Tools */
+/* Couleurs : */
+/* Tailles d'écrans : */
+/* Typo : */
+/* General */
+body {
+  background-color: #00FF;
+}
+
+/* Layout */
+/* Components */
+/*# sourceMappingURL=style.css.map */
