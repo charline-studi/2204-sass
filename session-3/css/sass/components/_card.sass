@@ -1,0 +1,27 @@
+.card
+    border: solid 2px black
+    margin-bottom: $large
+
+    .avatar
+        border-radius: 100%
+        width: $large
+        height: $large
+        margin-top: $large / 2 * -1
+
+    .top 
+        background-color: lightblue
+
+        .name
+            &:nth-child(2)
+                color: $red
+
+            &:last-child
+                color: green
+
+    .mail
+        background-color: black
+        color: white
+
+        &:hover
+            background-color: white
+            color: black

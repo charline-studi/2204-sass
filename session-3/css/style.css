@@ -1,0 +1,77 @@
+/* Import de outils en 1er */
+.number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Import "entonnoir, du plus grand au plus petit" */
+body {
+  background-color: grey;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-users {
+  background-color: orange;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  border: solid 2px black;
+  margin-bottom: 200px;
+}
+
+.card .avatar {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+}
+
+.card .top {
+  background-color: lightblue;
+}
+
+.card .top .name:nth-child(2) {
+  color: red;
+}
+
+.card .top .name:last-child {
+  color: green;
+}
+
+.card .mail {
+  background-color: black;
+  color: white;
+}
+
+.card .mail:hover {
+  background-color: white;
+  color: black;
+}
+
+.number {
+  background-color: yellow;
+  margin-bottom: 300px;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
