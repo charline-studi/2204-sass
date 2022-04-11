@@ -26,3 +26,4 @@ Durant les lives nous allons mettre en pratiques les différentes fonctionnalit�
 ## Ressources
 
 - [📖 Documentation Officielle Sass - EN](https://sass-lang.com/)
+- [📖 Liste fonctions Sass - EN](https://www.w3schools.com/sass/sass_functions_string.php)
