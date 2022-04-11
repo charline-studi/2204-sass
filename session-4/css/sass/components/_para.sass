@@ -1,0 +1,12 @@
+.para
+    background-color: lighten(orange, 20%)
+    font-size: $font-size-big
+    width: pixToVw(600)
+    @extend %flex-center
+    +circle(200px)
+
+    +max-break-point($tablet)
+        background-color: blue
+
+    +max-break-point($phone)
+        background-color: green

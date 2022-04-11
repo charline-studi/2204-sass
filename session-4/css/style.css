@@ -1,0 +1,39 @@
+.para {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.para {
+  background-color: #ffc966;
+  font-size: 50px;
+  width: 50vw;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .para {
+    font-size: 40px;
+    border: solid 2px red;
+    opacity: 0.5;
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .para {
+    font-size: 40px;
+    border: solid 2px red;
+    opacity: 0.5;
+    background-color: green;
+  }
+}
+/*# sourceMappingURL=style.css.map */

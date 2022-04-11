@@ -1,0 +1,15 @@
+@mixin circle($size)
+    width: $size
+    height: $size
+    border-radius: 100%
+
+@mixin size($width, $height: auto)
+    width: $width
+    height: $height
+
+@mixin max-break-point($size)
+    @media screen and (max-width: $size)
+        font-size: 40px
+        border: solid 2px red
+        opacity: 0.5
+        @content
