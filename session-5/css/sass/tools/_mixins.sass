@@ -1,0 +1,11 @@
+@mixin circle($size)
+    @if $size == big
+        width: 200px
+        height: 200px
+    @else if $size == medium
+        width: 150px
+        height: 150px
+    @else 
+        width: 100px
+        height: 100px
+    border-radius: 100%

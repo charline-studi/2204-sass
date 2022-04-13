@@ -1,0 +1,45 @@
+// Les boucles
+.square
+    width: 50px
+    height: 50px
+    border: solid 1px black
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+// EACH avec une liste
+
+$colors: red, blue, green
+
+@each $value in $colors
+    .#{$value}
+        background-color: $value
+
+
+// EACH avec une list-map
+
+$red: #FF0000
+$green: #00FF00
+$blue: #0000FF
+
+$colorsMap: ('red': $red, 'green': $green, 'blue': $blue)
+
+@each $key, $value in $colorsMap
+    .#{$key}
+        background-color: white
+        border: solid 2px $value
+
+
+// FOR
+
+// JS :
+// let i = 0, i < table.lenght, i++ // i--
+@for $i from 3 through 1
+    .square:nth-child(#{$i})
+        font-size: #{10 * $i}px
+
+        @if $i == 1
+            margin-bottom: 100px
+        @else
+            margin-bottom: 0
