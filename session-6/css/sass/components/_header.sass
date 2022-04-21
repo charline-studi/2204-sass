@@ -1,0 +1,38 @@
+.header
+    display: flex
+    align-items: center
+
+    &__logo
+        background-color: $color-dark
+
+    &__nav
+        flex-grow: 1
+
+    &__list
+        display: flex 
+
+    &__item
+        position: relative
+
+        &:hover
+           .header__list-sublinks
+               opacity: 1
+               pointer-events: initial
+
+    &__list-sublinks
+        opacity: 0
+        pointer-events: none
+        position: absolute
+        bottom: 0
+        left: 0
+        transform: translateY(100%)
+        background-color: $color-light
+        +transition(0.5s)
+
+    &__button
+        background-color: $color-light
+        color: $color-dark
+        +transition(0.25s)
+
+        &:hover
+            background-color: $color-secondary
